@@ -12,8 +12,8 @@ Page bundle: https://github.com/Avtonom/delay-exponential-backoff-bundle
     
 ```
 
-|attempt | microseconds | seconds | minutes | hours
-|1 | 150000000 | 150 | 2.5 | 0.04
+attempt | microseconds | seconds | minutes | hours
+1 | 150000000 | 150 | 2.5 | 0.04
 |2|300000000|300|5|0.08|
 |3|600000000|600|10|0.17|
 |4|1200000000|1200|20|0.33|
