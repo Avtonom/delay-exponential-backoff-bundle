@@ -1,0 +1,8 @@
+parameters:
+    avtonom_exponential_backoff.cap: 1000000 # [OPTIONAL] - Max duration allowed (in microseconds). If backoff duration is greater than cap, cap is returned
+    avtonom_exponential_backoff.max_attempts: 0 # [OPTIONAL] - Number of attemps before thrown an Exception
+
+services:
+    avtonom_exponential_backoff:
+        class: Avtonom\ExponentialBackoffBundle\ExponentialBackoff
+        arguments: ["%avtonom_exponential_backoff.cap%", "%avtonom_exponential_backoff.max_attempts%"]

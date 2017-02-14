@@ -1,0 +1,28 @@
+{
+  "name": "avtonom/delay-exponential-backoff-bundle",
+  "type": "symfony-bundle",
+  "description": "Exponential backoff to delay for Symfony2 bundle for PHP",
+  "keywords": ["Symfony2", "bundle", "exponential backoff", "backoff", "jitter", "retry", "delay", "job"],
+  "homepage": "https://github.com/Avtonom/delay-exponential-backoff-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton U",
+      "email": "avtonomspb@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/dependency-injection": "~2.3|3.*",
+    "yriveiro/php-backoff": "~0.0"
+  },
+  "autoload": {
+    "psr-0": { "Avtonom\\ExponentialBackoffBundle": "" }
+  },
+  "target-dir": "Avtonom//ExponentialBackoffBundle",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.2.x-dev"
+    }
+  }
+}
